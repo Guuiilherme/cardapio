@@ -1,0 +1,103 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff4e6; /* Fundo claro e acolhedor */
+    color: #333;
+}
+
+/* Cabeçalho do menu */
+.menu-header {
+    background-color: #ff6b6b; /* Vermelho vibrante */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.menu-header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+/* Seções do cardápio */
+.menu-section {
+    padding: 20px;
+}
+
+/* Categoria do menu */
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-category h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Cores animadas para cada categoria */
+.menu-category:nth-child(1) h2 {
+    background-color: #ffa502; /* Laranja brilhante para Entradas */
+}
+
+.menu-category:nth-child(2) h2 {
+    background-color: #2ed573; /* Verde vibrante para Pratos Principais */
+}
+
+.menu-category:nth-child(3) h2 {
+    background-color: #1e90ff; /* Azul vivo para Bebidas */
+}
+
+.menu-category:nth-child(4) h2 {
+    background-color: #ff4757; /* Vermelho para Sobremesas */
+}
+
+/* Itens do menu */
+.menu-item {
+    background-color: #fff;
+    border: 2px solid #f1f1f1;
+    border-left: 8px solid #ffa502; /* Destaque lateral com cor viva */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+    transition: transform 0.3s ease; /* Animação ao passar o mouse */
+}
+
+.menu-item:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.menu-item p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Rodapé do menu */
+.menu-footer {
+    background-color: #ff6b6b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu-footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
